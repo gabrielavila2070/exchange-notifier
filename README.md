@@ -29,11 +29,12 @@ Este proyecto es una app personal desarrollada con **Java + Spring Boot** que ut
 Las credenciales de Twilio están en `application.properties`, pero **no están incluidas en este repositorio** (por seguridad).  
 Tenés que agregarlas manualmente:
 
-```properties
+properties
 twilio.account.sid=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 twilio.auth.token=your_auth_token
 twilio.from=whatsapp:+14155238886
 twilio.to=whatsapp:+549XXXXXXXXXX
+
 
 🛠 Cómo compilar el .jar
 
