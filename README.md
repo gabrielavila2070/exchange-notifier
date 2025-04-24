@@ -34,3 +34,28 @@ twilio.account.sid=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 twilio.auth.token=your_auth_token
 twilio.from=whatsapp:+14155238886
 twilio.to=whatsapp:+549XXXXXXXXXX
+
+🛠 Cómo compilar el .jar
+
+Desde la raíz del proyecto:
+
+mvn clean package
+
+El archivo .jar generado estará en la carpeta target/.
+🧠 Uso sugerido en una PC 24/7
+
+    Cloná este repo.
+
+    Configurá tus credenciales.
+
+    Corré el .jar con:
+
+java -jar target/exchangenotifier-0.0.1-SNAPSHOT.jar
+
+    Usá un cronjob o supervisor para mantener la app siempre viva y/o actualizar el repo automáticamente si cambia.
+
+📦 Autor
+
+Diego Avila
+Programador Java Full Stack
+Este proyecto fue hecho para uso personal y aprendizaje 💡
