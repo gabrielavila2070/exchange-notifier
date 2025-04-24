@@ -29,34 +29,36 @@ Este proyecto es una app personal desarrollada con **Java + Spring Boot** que ut
 Las credenciales de Twilio están en `application.properties`, pero **no están incluidas en este repositorio** (por seguridad).  
 Tenés que agregarlas manualmente:
 
-properties
+```properties
 twilio.account.sid=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 twilio.auth.token=your_auth_token
 twilio.from=whatsapp:+14155238886
 twilio.to=whatsapp:+549XXXXXXXXXX
 
-
-🛠 Cómo compilar el .jar
+```
+---
+## 🛠 Cómo compilar el .jar
 
 Desde la raíz del proyecto:
 
 mvn clean package
 
 El archivo .jar generado estará en la carpeta target/.
-🧠 Uso sugerido en una PC 24/7
+## 🧠 Uso sugerido en una PC 24/7
 
-    Cloná este repo.
+Cloná este repo.
 
-    Configurá tus credenciales.
+Configurá tus credenciales.
 
-    Corré el .jar con:
+Corré el .jar con:
 
+```
 java -jar target/exchangenotifier-0.0.1-SNAPSHOT.jar
+```
+Usá un cronjob o supervisor para mantener la app siempre viva y/o actualizar el repo automáticamente si cambia.
 
-    Usá un cronjob o supervisor para mantener la app siempre viva y/o actualizar el repo automáticamente si cambia.
+## 📦 Autor
 
-📦 Autor
-
-Diego Avila
+Diego Avila 
 Programador Java Full Stack
 Este proyecto fue hecho para uso personal y aprendizaje 💡
